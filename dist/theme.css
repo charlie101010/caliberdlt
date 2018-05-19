@@ -16939,12 +16939,12 @@ body {
 }
 
 .index-clients {
-  margin-top: 200px;
+  margin-top: 100px;
   text-align: center;
 }
 @media (max-width: 767px) {
   .index-clients {
-    margin-top: 110px;
+    margin-top: 60px;
   }
 }
 .index-clients header {
@@ -17199,11 +17199,11 @@ body {
 }
 
 .spacial-features {
-  margin-top: 110px;
+  padding-top: 110px;
 }
 @media (max-width: 767px) {
   .spacial-features {
-    margin-top: 60px;
+    padding-top: 60px;
   }
 }
 .spacial-features .header {
