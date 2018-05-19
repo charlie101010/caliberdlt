@@ -285,19 +285,25 @@
     </div>
   </nav>
 
-  <div class="business-hero">
-    <div class="container">
-      <h2 class="customFadeInUp">
-        In blockchain, quality and security means everything for your business. 
-        Work with a partner you trust.
-      </h2>
-      <p class="customFadeInUp">
-        CaliberDLT provides quality assurance services, automation, and security audits for blockchain.
-        We have the knowledge and expertise to ensure your smart contacts – the core of your blockchain platform - can be released with absolute confidence.
-      </p>
 
-      <div class="actions customFadeInUp">
-        <a href="agency-contact.html" class="btn-pill btn-pill-primary btn-pill-lg">Contact Us</a>
+
+    <div class="homepage-hero-module">
+    <div class="video-container">
+      <div id="video"></div>
+
+      <div class="homepage-hero-content">
+        <h2 class="customFadeInUp">
+          In blockchain, quality and security means
+          everything for your business. <br>
+          Work with a partner you trust.
+        </h2>
+        <p class="customFadeInUp" style="margin-bottom: 20px">
+          CaliberDLT provides quality assurance services, automation, and security audits for blockchain. We have the knowledge and expertise to ensure your smart contacts – the core of your blockchain platform - can be released with absolute confidence.
+        </p>
+
+        <a href="agency-contact.html" class="btn-pill btn-pill-primary btn-pill-lg">
+          Contact Us
+        </a>
       </div>
     </div>
   </div>
@@ -640,6 +646,26 @@
           y: 150
         },
         once: true
+      });
+    });
+  </script>
+
+    <script type="text/javascript">
+    $(function() {
+      $('#video').YTPlayer({
+        fitToBackground: false,
+        videoId: 'av4RQjZ-q-g',
+        pauseOnScroll: false,
+        playerVars: {
+          modestbranding: 0,
+          autoplay: 1,
+          controls: 0,
+          showinfo: 0,
+          wmode: 'transparent',
+          branding: 0,
+          rel: 0,
+          autohide: 0
+        }
       });
     });
   </script>
