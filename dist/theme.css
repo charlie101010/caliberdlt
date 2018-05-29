@@ -15566,6 +15566,7 @@ body {
   -ms-transition: color 0.2s linear;
   -o-transition: color 0.2s linear;
   transition: color 0.2s linear;
+  max-width: 550px;
 }
 @media (min-width: 992px) {
   .navbar-dark .dropdown-menu {
