@@ -16430,7 +16430,7 @@ body {
   height: 390px;
   background: #54657b;
   position: absolute;
-  right: 13%;
+  left: 13%;
   bottom: -60px;
   box-shadow: 0 5px 16px rgba(76, 84, 109, 0.4);
   padding: 60px 70px;
@@ -20293,6 +20293,19 @@ body {
   .navbar.navbar-restaurant .navbar-brand {
     top: 0;
   }
+}
+
+@media(min-width: 1200px){
+  .nav-width{
+  min-width: 830px; !important
+}
+
+.d-lg-inline{
+  min-width: 120px;
+}
+
+
+
 }
 .navbar.navbar-restaurant .navbar-brand img {
   max-width: inherit;
