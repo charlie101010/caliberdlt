@@ -15203,7 +15203,7 @@ you can use the generic selector below, but it's slower:
 }
 
 .footer-big-menu {
-  /*margin-top: 120px;*/
+  margin-top: 120px;
   padding: 80px 0 130px;
   background: #2B4255;
   position: relative;
@@ -19281,6 +19281,10 @@ body {
   -ms-transition: all 0.2s;
   -o-transition: all 0.2s;
   transition: all 0.2s;
+}
+
+.extra{
+  padding-top: 30px;
 }
 .homepage-hero-content a.btn-cta:hover {
   color: #fff;
