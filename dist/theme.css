@@ -15600,6 +15600,11 @@ body {
     padding: 32px 10px;
   }
 }
+@media (min-width: 992px) {
+.nav-link{
+  display: inline;
+}
+}
 .navbar-dark .nav-item .nav-link:hover, .navbar-dark .nav-item .nav-link:focus {
   color: #fff;
   background: none;
@@ -20301,7 +20306,7 @@ body {
 
 @media(min-width: 1200px){
   .nav-width{
-  min-width: 830px; !important
+  min-width: 920px; !important
 }
 
 .d-lg-inline{
