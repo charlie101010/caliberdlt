@@ -70,7 +70,7 @@ if (typeof Object.create !== "function") {
     // Defaults
     defaults: {
       ratio: 16 / 9,
-      videoId: 'LSmgKRx5pBo',
+      videoId: 'av4RQjZ-q-g',
       mute: true,
       repeat: true,
       width: $(window).width(),
